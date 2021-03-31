@@ -7,8 +7,8 @@ date = str(input("Which year would you like to travel to? Enter YYYY-MM-DD forma
 year = date.split("-")[0]
 print(year)
 URL = "https://www.billboard.com/charts/hot-100/" + date
-CLIENT_ID = "8f6c4de45a6c442eb52b6e5a3daac0f3"
-CLIENT_SECRET = "c3684c9f99b242f88049965666074c0e"
+CLIENT_ID = #Retrieve from Spotify developer documentation
+CLIENT_SECRET = #etrieve from Spotify developer documentation
 
 response = requests.get(url=URL)
 
